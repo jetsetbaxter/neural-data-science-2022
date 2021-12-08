@@ -1,10 +1,10 @@
 ## Welcome to Neural Data Science! (BSR6717)
 
-The current course syllabus and schedule is [here](https://github.com/jetsetbaxter/neural-data-science-2022/neural_data_science_syllabus_20211207.pdf).
+The current course syllabus and schedule is [here](https://github.com/jetsetbaxter/neural-data-science-2022/blob/15cb3fe833592d4569fd6058b4e4da266d4973de/neural_data_science_syllabus_20211207.pdf).
 
 ### Pre-Assignment
 
-Before the first class, please complete the ["pre-assignment" in R](https://github.com/jetsetbaxter/neural-data-science-2022/HW0.R), a short script with a series of questions. Add the answers into the file and email or Slack message them to Mark.
+Before the first class, please complete the ["pre-assignment" in R](https://github.com/jetsetbaxter/neural-data-science-2022/blob/15cb3fe833592d4569fd6058b4e4da266d4973de/HW0.R), a short script with a series of questions. Add the answers into the file and email or Slack message them to Mark.
 
 ### Course Schedule and Topics
 
