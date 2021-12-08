@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Welcome to Neural Data Science! (BSR6717)
 
-You can use the [editor on GitHub](https://github.com/jetsetbaxter/neural-data-science-2022/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The current course syllabus and schedule is [here](https://github.com/jetsetbaxter/neural-data-science-2022/neural_data_science_syllabus_20211207.pdf).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Pre-Assignment
 
-### Markdown
+Before the first class, please complete the ["pre-assignment" in R](https://github.com/jetsetbaxter/neural-data-science-2022/HW0.R), a short script with a series of questions. Add the answers into the file and email or Slack message them to Mark.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Course Schedule and Topics
 
-```markdown
-Syntax highlighted code block
+| Date | Topic |
+| --- | --- |
+| January 19	| Introduction / refresher on probability and statistical inference **HW0 due** (pretest) |
+| January 24	| Quick intro and refresher on R |
+| January 26	| Data wrangling in R / "tidyverse" tools |
+| January 31	| Power analysis theory and application **HW1 due** (data wrangling) |
+| Feburary 2	| Linear models for analysis and prediction |
+| Feburary 7	| More linear models / multilevel models **HW2 due** (power analysis) (5-101) |
+| Feburary 9	| Generalized linear models, logistic regression |
+| February 14	| Model comparison and inference, hierarchical models **HW3 due** (linear models) |
+| Feburary 16	| Survival analysis / time-to-event data |
+| February 21	| _Presidents Day Holiday - no class_ |
+| February 23	| Graphics and data visualization **HW4 due** (MLMs) |
+| February 28	| Crash course in MATLAB |
+| March 2	| Introduction to time series analysis **HW5 due** (graphics and visualization) |
+| March 7	| Understanding frequency decomposition |
+| March 9	| Functional connectivity **HW6 due** (time series) |
+| March 14	| Population coding |
+| March 16	| Data mining part 1 **HW7 due** (frequency decomposition) |
+| March 21	| Data mining part 2 |
+| March 23	| RNA-seq data analysis (Li Shen) **HW8 due** (population coding) |
+| March 28	| _Spring break - no class_ |
+| March 30	| _Spring break - no class_ |
+| April 4		| Discussion / catchup / special topics **HW9 due** (data mining) |
+| April 6		| Presentations |
+| April 11	| Presentations |
 
-# Header 1
-## Header 2
-### Header 3
+### Selected resources
 
-- Bulleted
-- List
+[Statistical Thinking for the 21st Century](https://statsthinking21.org)
 
-1. Numbered
-2. List
+["STAT 545" materials](https://stat545.com/)
 
-**Bold** and _Italic_ and `Code` text
+[Probability, Statistics, and Data: A Fresh Approach Using R](https://mathstat.slu.edu/~speegle/_book/preface.html)
 
-[Link](url) and ![Image](src)
-```
+[Tidy simulation](http://ritsokiguess.site/blogg/posts/2021-11-14-tidy-simulation/)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jetsetbaxter/neural-data-science-2022/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
