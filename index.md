@@ -12,13 +12,13 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 | --- | --- |
 | January 19	| Introduction / refresher on probability and statistical inference **HW0 due** (pretest) |
 | January 24	| Quick intro and refresher on R |
-| January 26	| Data wrangling in R / "tidyverse" tools |
+| January 26	| [Data wrangling in R / "tidyverse" tools](./20220126.md) |
 | January 31	| Power analysis theory and application **HW1 due** (data wrangling) |
-| Feburary 2	| Linear models for analysis and prediction |
-| Feburary 7	| More linear models / multilevel models **HW2 due** (power analysis) (5-101) |
-| Feburary 9	| Generalized linear models, logistic regression |
+| February 2	| Linear models for analysis and prediction |
+| February 7	| More linear models / multilevel models **HW2 due** (power analysis) (5-101) |
+| February 9	| Generalized linear models, logistic regression |
 | February 14	| Model comparison and inference, hierarchical models **HW3 due** (linear models) |
-| Feburary 16	| Survival analysis / time-to-event data |
+| February 16	| Survival analysis / time-to-event data |
 | February 21	| _Presidents Day Holiday - no class_ |
 | February 23	| Graphics and data visualization **HW4 due** (MLMs) |
 | February 28	| Crash course in MATLAB |
