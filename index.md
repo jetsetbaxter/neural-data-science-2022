@@ -10,7 +10,7 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 
 | Date | Topic |
 | --- | --- |
-| January 19	| Introduction / refresher on probability and statistical inference **HW0 due** (pretest) |
+| January 19	| [Introduction / refresher on probability and statistical inference](./20220119.md) **HW0 due** (pretest) |
 | January 24	| Quick intro and refresher on R |
 | January 26	| [Data wrangling in R / "tidyverse" tools](./20220126.md) |
 | January 31	| Power analysis theory and application **HW1 due** (data wrangling) |
