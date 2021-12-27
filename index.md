@@ -14,8 +14,8 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 | January 24	| [Quick intro and refresher on R](./20220124.md) |
 | January 26	| [Data wrangling in R / "tidyverse" tools](./20220126.md) |
 | January 31	| Power analysis theory and application **HW1 due** (data wrangling) |
-| February 2	| Linear models for analysis and prediction |
-| February 7	| More linear models / multilevel models **HW2 due** (power analysis) (5-101) |
+| February 2	| [Linear models for analysis and prediction](./20220202.md) |
+| February 7	| [More linear models / multilevel models](./20220202.md) **HW2 due** (power analysis) (5-101) |
 | February 9	| Generalized linear models, logistic regression |
 | February 14	| Model comparison and inference, hierarchical models **HW3 due** (linear models) |
 | February 16	| Survival analysis / time-to-event data |
