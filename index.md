@@ -13,7 +13,7 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 | January 19	| [Introduction / refresher on probability and statistical inference](./20220119.md) **HW0 due** |
 | January 24	| [Quick intro and refresher on R](./20220124.md) |
 | January 26	| [Data wrangling in R / "tidyverse" tools](./20220126.md) |
-| January 31	| Power analysis theory and application **HW1 due** (data wrangling) |
+| January 31	| [Power analysis theory and application](./20220131.md) **HW1 due** (data wrangling) |
 | February 2	| [Linear models for analysis and prediction](./20220202.md) |
 | February 7	| [More linear models / multilevel models](./20220202.md) **HW2 due** (power analysis) (5-101) |
 | February 9	| Generalized linear models, logistic regression |
@@ -42,6 +42,3 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 ["STAT 545" materials](https://stat545.com/)
 
 [Probability, Statistics, and Data: A Fresh Approach Using R](https://mathstat.slu.edu/~speegle/_book/preface.html)
-
-[Tidy simulation](http://ritsokiguess.site/blogg/posts/2021-11-14-tidy-simulation/)
-
