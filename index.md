@@ -20,7 +20,7 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 | February 14	| Model comparison and inference, hierarchical models **HW3 due** (linear models) |
 | February 16	| Survival analysis / time-to-event data |
 | February 21	| _Presidents Day Holiday - no class_ |
-| February 23	| Graphics and data visualization **HW4 due** (MLMs) |
+| February 23	| [Graphics and data visualization](./20220223.md) **HW4 due** (MLMs) |
 | February 28	| Crash course in MATLAB |
 | March 2	| Introduction to time series analysis **HW5 due** (graphics and visualization) |
 | March 7	| Understanding frequency decomposition |
