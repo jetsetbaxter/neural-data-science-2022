@@ -18,7 +18,7 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 | February 7	| [More linear models / multilevel models](./20220202.md) **HW2 due** (power analysis) (5-101) |
 | February 9	| [Generalized linear models, logistic regression](./20220209.md) |
 | February 14	| [Model comparison and inference, hierarchical models](./20220214.md) **HW3 due** (linear models) |
-| February 16	| Survival analysis / time-to-event data |
+| February 16	| [Survival analysis / time-to-event data](./20220216.md) |
 | February 21	| _Presidents Day Holiday - no class_ |
 | February 23	| [Graphics and data visualization](./20220223.md) **HW4 due** (MLMs) |
 | February 28	| Crash course in MATLAB |
