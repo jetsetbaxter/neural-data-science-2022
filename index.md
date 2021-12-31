@@ -16,7 +16,7 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 | January 31	| [Power analysis theory and application](./20220131.md) **HW1 due** (data wrangling) |
 | February 2	| [Linear models for analysis and prediction](./20220202.md) |
 | February 7	| [More linear models / multilevel models](./20220202.md) **HW2 due** (power analysis) (5-101) |
-| February 9	| Generalized linear models, logistic regression |
+| February 9	| [Generalized linear models, logistic regression](./20220209.md) |
 | February 14	| [Model comparison and inference, hierarchical models](./20220214.md) **HW3 due** (linear models) |
 | February 16	| Survival analysis / time-to-event data |
 | February 21	| _Presidents Day Holiday - no class_ |
