@@ -35,6 +35,8 @@ Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a 
 | April 6		| Presentations |
 | April 11	| Presentations |
 
+### [Homework Assignments](./homeworks.md) 
+
 ### Selected resources
 
 [Statistical Thinking for the 21st Century](https://statsthinking21.org)
