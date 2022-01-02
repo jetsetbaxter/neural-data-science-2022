@@ -1,11 +1,11 @@
 library(tidyverse)
 library(readxl)
 
-setwd("~/Desktop")
-
 demo <- read_excel("20220126_demo.xlsx")
+# requires the excel file be in your working directory
 
-glimpse(demo)
+demo
+glimpse(demo) # glimpse is tidyverse function that provides compact data view
 # extra header column is in the way
 
 demo <- read_excel("20220126_demo.xlsx", skip = 1)
@@ -16,18 +16,31 @@ glimpse(demo)
 # column names have spaces in them which requires using single quotes
 # there are a few options:
 
+# rename function
 demo %>% rename(animal_ID = `animal ID`,
                 trial_1 = `trial 1`,
                 trial_2 = `trial 2`,
                 trial_3 = `trial 3`,
                 trial_4 = `trial 4`)
 
+# clean_names() function from janitor package
 demo %>% janitor::clean_names()
 
-demo <- read_excel("20220126_demo.xlsx", skip = 2, 
+# specify the names when you read the data in 
+read_excel("20220126_demo.xlsx", skip = 2, 
                    col_names = c("animal_ID", "trial_1", "trial_2", "trial_3", "trial_4"))
 
 glimpse(demo)
+# none of the things we just did had any effect on "demo"
+
+demo <- demo %>% rename(animal_ID = `animal ID`,
+                        trial_1 = `trial 1`,
+                        trial_2 = `trial 2`,
+                        trial_3 = `trial 3`,
+                        trial_4 = `trial 4`)
+
+glimpse(demo) # have to remember to assign the result of functions to an object
+
 # note all columns are type "dbl" - double-precision decimals
 # read_excel tries to guess what things should be
 # you may want animal_ID to be something non-numeric because mouse 2 is not twice mouse 1
@@ -39,6 +52,7 @@ demo
 demo <- demo %>% mutate(animal_ID = as.character(animal_ID))
 
 demo
+# assigned the result of the second step to demo
 
 # you may want all the latency data in one column coded by trial
 # pivot_longer and pivot_wider
@@ -54,53 +68,10 @@ demo %>% pivot_longer(trial_1:trial_4, names_to = "trial", values_to = "latency"
 
 demo <- demo %>% pivot_longer(trial_1:trial_4, names_to = "trial", values_to = "latency") %>%
   mutate(trial = parse_number(trial))
+# assign tidy format data to demo
 
 demo %>% group_by(trial) %>% summarize(mean = mean(latency))
 
 demo %>% group_by(trial) %>% summarize(mean = mean(latency), sd = sd(latency))
-
-# you may pass these summary statistics directly to ggplot
-
-demo %>% group_by(trial) %>% summarize(mean = mean(latency), sd = sd(latency)) %>%
-  ggplot(aes(x = trial, y = mean)) +
-  geom_point() +
-  geom_line() +
-  geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd))
-
-demo %>% group_by(trial) %>% summarize(mean = mean(latency), sd = sd(latency)) %>%
-  ggplot(aes(x = trial, y = mean)) +
-  geom_point() +
-  geom_line() +
-  geom_errorbar(aes(ymin = mean-sd, ymax = mean+sd), width = 0.2) +
-  theme_classic() + labs(y = "Latency (sec)")
-
-demo %>%
-  ggplot(aes(x = trial, y = latency)) +
-  geom_line(aes(group = animal_ID), alpha = 0.25) +
-  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2) +
-  stat_summary(fun = mean, geom = "line") +
-  theme_classic()
-
-demo %>% filter(trial < 4) %>%
-  ggplot(aes(x = trial, y = latency)) +
-  geom_line(aes(group = animal_ID), alpha = 0.25) +
-  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2) +
-  stat_summary(fun = mean, geom = "line") +
-  theme_classic()
-
-demo %>% filter(trial < 4) %>%
-  mutate(trial = factor(trial)) %>%
-  ggplot(aes(x = trial, y = latency)) +
-  geom_line(aes(group = animal_ID), alpha = 0.25) +
-  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2) +
-  stat_summary(fun = mean, geom = "line") +
-  theme_classic()
-
-demo %>% filter(trial < 4) %>%
-  mutate(trial = factor(trial)) %>%
-  ggplot(aes(x = trial, y = latency)) +
-  geom_line(aes(group = animal_ID), alpha = 0.25) +
-  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2) +
-  stat_summary(aes(group = 1), fun = mean, geom = "line") +
-  theme_classic()
-# had to google that error message
+# tidy format is handy for generating summary statistics
+# better than typing mean(trial_1), mean(trial_2), ...
