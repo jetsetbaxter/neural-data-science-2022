@@ -2,10 +2,6 @@
 
 The current course syllabus and schedule is [here](./neural_data_science_syllabus_20211207.pdf).
 
-### Pre-Assignment
-
-Before the first class, please complete the ["pre-assignment" in R](./HW0.R), a short script with a series of questions. Add the answers into the file and email or Slack message them to Mark.
-
 ### Course Schedule and Topics
 
 | Date | Topic |
