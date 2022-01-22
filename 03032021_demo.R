@@ -1,7 +1,5 @@
 library(tidyverse)
 
-setwd("~/Dropbox/Stats Course Spring 2019")
-
 set.seed(1234)
 
 neurons <- read.delim("Neurons.txt", sep = ",", header = FALSE)
