@@ -5,6 +5,7 @@
 [Solution to HW1](./HW1_code_2022.R)
 
 ### [Homework 2](./HW2 assignment 2022.pdf) (due February 7)
+[Solution to HW1](./HW2_code_2022.R)
 
 ### [Homework 3](./HW3 assignment 2022.pdf) (due February 14)
 
