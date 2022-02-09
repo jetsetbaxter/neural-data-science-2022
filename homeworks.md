@@ -11,6 +11,7 @@
 
 ### [Homework 4](./HW4 assignment 2022.pdf) (due February 23)
 [HW4_2022_data.xlsx](./HW4_2022_data.xlsx)
+[HW4 starter code](./HW4_starter_code_2022.R)
 
 ### [Homework 5](./HW5 assignment 2022.pdf) (due March 2)
 
