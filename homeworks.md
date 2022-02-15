@@ -8,6 +8,7 @@
 [Solution to HW2](./HW2_code_2022.R)
 
 ### [Homework 3](./HW3 assignment 2022.pdf) (due February 14)
+[Solution to HW2](./HW3_code_2022.R)
 
 ### [Homework 4](./HW4 assignment 2022.pdf) (due February 23)
 [HW4_2022_data.xlsx](./HW4_2022_data.xlsx)
