@@ -17,7 +17,7 @@ The current course syllabus and schedule is [here](./neural_data_science_syllabu
 | February 16	| [Survival analysis / time-to-event data](./20220216.md) |
 | February 21	| _Presidents Day Holiday - no class_ |
 | February 23	| [Graphics and data visualization](./20220223.md) **HW4 due** (MLMs) |
-| February 28	| Crash course in MATLAB |
+| February 28	| [Crash course in Matlab](./20220228.md)|
 | March 2	| [Introduction to time series analysis](./20220302.md) **HW5 due** (graphics and visualization) |
 | March 7	| [Understanding frequency decomposition](./20220307.md) |
 | March 9	| [Functional connectivity](./20220309.md) **HW6 due** (time series) |
