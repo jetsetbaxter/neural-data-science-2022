@@ -1,7 +1,7 @@
 library(tidyverse)
 library(readxl)
 
-hw4_data <- read_excel("HW4_data.xlsx") %>%
+hw4_data <- read_excel("HW4_2022_data.xlsx") %>%
   mutate(group = factor(group, levels = c("control", "drug"))) %>%
   pivot_longer(trial_1:trial_4, names_to = "trial", 
                values_to = "preference") %>%
