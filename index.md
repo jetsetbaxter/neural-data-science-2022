@@ -24,7 +24,7 @@ The current course syllabus and schedule is [here](./neural_data_science_syllabu
 | March 14	| [Population coding](./20220314.md) |
 | March 16	| [Data mining part 1](./20220316.md) **HW7 due** (frequency decomposition) |
 | March 21	| [Data mining part 2](./20220316.md) |
-| March 23	| RNA-seq data analysis (Li Shen) **HW8 due** (population coding) |
+| March 23	| [RNA-seq data analysis](./20220323.md) (Li Shen) **HW8 due** (population coding) |
 | March 28	| _Spring break - no class_ |
 | March 30	| _Spring break - no class_ |
 | April 4		| Discussion / catchup / special topics **HW9 due** (data mining) |
