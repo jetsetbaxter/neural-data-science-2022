@@ -2,17 +2,22 @@
 
 ### [Homework 1](./HW1 assignment 2022.pdf) (due January 31)
 [HW1_2022_data.xlsx](./HW1_2022_data.xlsx)
+
 [Solution to HW1](./HW1_code_2022.R)
 
 ### [Homework 2](./HW2 assignment 2022.pdf) (due February 7)
+
 [Solution to HW2](./HW2_code_2022.R)
 
 ### [Homework 3](./HW3 assignment 2022.pdf) (due February 14)
+
 [Solution to HW3](./HW3_code_2022.R)
 
 ### [Homework 4](./HW4 assignment 2022.pdf) (due February 23)
 [HW4_2022_data.xlsx](./HW4_2022_data.xlsx)
 [HW4 starter code](./HW4_starter_code_2022.R)
+
+[Solution to HW4](./HW4_code_2022.R)
 
 ### [Homework 5](./HW5 assignment 2022.pdf) (due March 2)
 
