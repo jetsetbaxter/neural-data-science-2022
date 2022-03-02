@@ -21,7 +21,9 @@
 
 ### [Homework 5](./HW5 assignment 2022.pdf) (due March 2)
 
-### Homework 6
+### [Homework 6](./HW6.docx)
+[Data for HW6 in .mat](./HW6data.mat)
+[Data for HW6 in .xls](./HW6data.xlsx)
 
 ### Homework 7
 
