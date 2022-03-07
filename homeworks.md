@@ -25,7 +25,9 @@
 [Data for HW6 in .mat](./HW6data.mat)
 [Data for HW6 in .xls](./HW6data.xlsx)
 
-### Homework 7
+### [Homework 7](./HW7.docx)
+[LFP](https://www.dropbox.com/s/l45oraepc9fqih3/LFP.txt?dl=0)
+[events](https://www.dropbox.com/s/7ckf5s8sbc15a7a/events.txt?dl=0)
 
 ### Homework 8
 
