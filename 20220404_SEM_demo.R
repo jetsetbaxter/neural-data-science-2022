@@ -38,6 +38,30 @@ effectsize::interpret(fit1) # based on general guidelines (dark magic)
 library(lavaanPlot)
 lavaanPlot(model = fit1, coefs = TRUE)
 
+## Note that lavaan does some things by default
+## first loading for each factor is fixed to 1
+## factors are allowed to covary (correlate) by default
+
+## can modify this behavior by fixing parameters
+
+x1to6_model_a <- ' visual =~ x1 + x2 + x3
+                  textual =~ x4 + x5 + x6
+                   visual ~~ 0 * textual' # force factors to be orthogonal (uncorrelated)
+
+fit1a <- cfa(model = x1to6_model_a, data = hs1939)
+summary(fit1a, fit.measures = TRUE)
+
+x1to6_model_b <- ' visual =~ NA*x1 + x2 + x3 
+                  textual =~ NA*x4 + x5 + x6
+                   visual ~~ 0 * textual
+                   visual ~~ 1 * visual
+                  textual ~~ 1 * textual'
+# uncorrelated factors, estimate loadings of x1 and x4 but constrain variance of LVs to 1
+
+fit1b <- cfa(model = x1to6_model_b, data = hs1939)
+summary(fit1b, fit.measures = TRUE)
+# note: these models are identical! method of fixing scale of LVs does not matter
+
 ## 3 factor CFA
 
 ## specify the model
